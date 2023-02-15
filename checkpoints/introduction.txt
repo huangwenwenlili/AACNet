@@ -1,0 +1,6 @@
+Please download the pre-trained models in this directory. Such as:
+checkpoints/aid
+checkpoints/celebahq
+checkpoints/nwpu
+checkpoints/paris
+checkpoints/patternnet
