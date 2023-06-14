@@ -6,7 +6,7 @@ The code will be available.
 This is the testing code for our AACNet to reconstruct remote sensing and natural image. Given one image and mask, the proposed **AACNet** model is able to reconstruct masked regions. This code is adapted from an initial fork of [PIC](https://github.com/lyndonzheng/Pluralistic-Inpainting) implementation.
 
 ## Illustration of Ada-attention
-![](https://github.com/huangwenwenlili/AACNet/blob/master/images/ada-attention-results.png)
+![](https://github.com/huangwenwenlili/AACNet/blob/main/images/ada-attention-results.png)
 
 Illustration of self-attention and Ada-attention, including high attention score points, key/value positions, and inpainting results. The gray covering regions represent the corrupted regions. In the high attention score points images, the red stars show the specific query, and the purple circles show the high attention score points. These attention score images show that Ada-attention focuses more on relevant keys related to the query, e.g., the roof. In the key/value positions images, cyan dots denote the original uniform coordinates used in self-attention, and red dots of Ada-attention denote the sampled coordinates adjusted by the offset subnet, which are more inclined to the edge and texture with rich features. In the inpainting results images, local details are displayed in the red box, demonstrating that our Ada-attention generates superior results.
 
@@ -64,10 +64,10 @@ Our models are trained with images of resolution 256*256 with random regular and
 
 ## Example Results
 - **Completion Results for RS Datasets**
-![](https://github.com/huangwenwenlili/AACNet/blob/master/images/rs-results.png)
+![](https://github.com/huangwenwenlili/AACNet/blob/main/images/rs-results.png)
 
 - **Completion Results for Natural Inpainting Datasets**
-![](https://github.com/huangwenwenlili/AACNet/blob/master/images/natural-results.png)
+![](https://github.com/huangwenwenlili/AACNet/blob/main/images/natural-results.png)
 
 
 ## License
